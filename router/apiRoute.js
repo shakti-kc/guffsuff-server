@@ -12,7 +12,7 @@ const jwt=require("jsonwebtoken")
 require('dotenv').config();
 router.use(express.json())
 router.use(cors({
-    origin: "https://gufsuff.netlify.app",
+    origin: "https://guff-suff.netlify.app",
     credentials:true,
     methods: "GET,PUT,POST,PATCH,DELETE"
 }))
